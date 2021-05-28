@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{BBB5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{5B918A25-7B89-47AF-B85A-00116AB875C2}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9C942E13-6FFA-4429-A583-E1820534CE1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,18 @@ Global
 		{5B918A25-7B89-47AF-B85A-00116AB875C2}.Release|x64.Build.0 = Release|Any CPU
 		{5B918A25-7B89-47AF-B85A-00116AB875C2}.Release|x86.ActiveCfg = Release|Any CPU
 		{5B918A25-7B89-47AF-B85A-00116AB875C2}.Release|x86.Build.0 = Release|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Debug|x64.Build.0 = Debug|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Debug|x86.Build.0 = Debug|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Release|x64.ActiveCfg = Release|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Release|x64.Build.0 = Release|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Release|x86.ActiveCfg = Release|Any CPU
+		{9C942E13-6FFA-4429-A583-E1820534CE1D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BBB560EE-802E-40DA-835B-0026A070C4E7} = {1F32F47B-BB58-4544-81BF-ACDB0DCB6748}
