@@ -4,7 +4,7 @@ using Catalog.API.Entities;
 
 namespace Catalog.API.Data
 {
-    public interface ICatalogInterface
+    public interface ICatalogContext
     {
        IMongoCollection<Product> Products { get; }
     }

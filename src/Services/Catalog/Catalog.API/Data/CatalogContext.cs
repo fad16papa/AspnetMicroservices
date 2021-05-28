@@ -5,7 +5,7 @@ using src.Services.Catalog.Catalog.API.Data;
 
 namespace Catalog.API.Data
 {
-    public class CatalogContext : ICatalogInterface
+    public class CatalogContext : ICatalogContext
     {
         public CatalogContext(IConfiguration configuration)
         {
